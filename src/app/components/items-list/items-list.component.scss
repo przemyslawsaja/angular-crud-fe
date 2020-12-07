@@ -1,0 +1,28 @@
+.list-card {
+  width: 90%; 
+  margin: auto;
+}
+
+.title {
+  text-align: center; 
+  font-size: 32px; 
+  font-weight: bold; 
+  margin-top: 100px
+}
+
+.list-item {
+  transition: 0.2s ease-in;
+  &:hover{
+    background-color: #ebebeb;
+  }
+}
+
+$breakpoint-tablet: 768px;
+@media (min-width: $breakpoint-tablet) {
+  .list-card {
+    width: 50%; 
+  }; 
+  .title {
+    font-size: 3em; 
+  }
+}
